@@ -1,0 +1,409 @@
+/* 1 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.084),rgba(0, 0, 0, 0.2)),
+    url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-section h1 {
+    color: orangered;
+    cursor: pointer;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 15px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 5px orangered;
+    padding: 5px;
+}
+.resevation {
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+}
+.content {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    color: white;
+}
+.content h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.content h1 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+}
+.content p {
+    font-size: 15px;
+    text-align: center;
+}
+.search {
+    position: relative;
+    top: 400px;
+    left: 600px;
+}
+.search input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 250px;
+}
+.search input:focus {
+    outline: none;
+}
+.btn {
+    position: relative;
+    top: 400px;
+    left: 700px;
+}
+.btn button {
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    width: 100px;
+}
+.btn button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+/* 2 */
+
+body {
+    background-color: #252529;
+    font-family: sans-serif;
+    margin: 0;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+.main-section {
+    background: url(https://cdn.pixabay.com/photo/2014/11/07/00/00/volleyball-520093_640.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.main-section .container {
+    position: relative;
+    top: 200px;
+}
+.main-section h1 {
+    font-size: 4rem;
+}
+.main-section h2 {
+    font-size: 2rem;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #252529;
+    position: fixed;
+}
+nav .cf {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    float: left;
+}
+nav a {
+    color: #eee;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
+}
+ul li a:hover {
+    background-color : #444;
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 4px;
+}
+.hide {
+    font-size: 1.3rem;
+}
+footer .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 14px;
+    height: 200px;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li:first-child {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #444;
+}
+footer .footer-bottom {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+.section {
+    padding: 10px 0;
+}
+.section .container {
+    font-size: 20px;
+}
+.section a img {
+    width: 100px;
+    margin: 10px;
+}
+.section .one {
+    background-color: red;
+    padding: 10px;
+    width: 100%;
+    margin-top : 20px;
+    color: #fff;
+    cursor: pointer;
+} 
+
+
+/* 3 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.021)), url(https://cdn.pixabay.com/photo/2015/06/19/10/00/beach-814679_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-bar img {
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+.nav-bar ul {
+    list-style: none;
+}
+.nav-bar ul li {
+    display: inline-block;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.reg-btn {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.main1 {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+.main1 h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.search-box {
+    background-color: white;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.search-box form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.search-box form label {
+    font-weight: bolder;
+}
+.search-box form input {
+    display: block;
+    border: 0;
+    outline: none;
+}
+form i {
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    background-color: deeppink;
+    padding: 15px;
+    cursor: pointer;
+}
+.container1 h2 {
+    margin: 10px 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.exclusive {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    margin-left: 15px;
+}
+.ex img {
+    width: 100%;
+    border-radius: 20px;
+}
+.exclusive div {
+    position: relative;
+}
+.ex span {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: whitesmoke;
+    text-align: center;
+}
+.title h2 {
+    margin: 15px 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 10px;
+}
+.im img {
+    border-radius: 20px;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+.container3 {
+    position:  absolute;
+}
+.sofa img {
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    left: 50px;
+    border-radius: 20px;
+    margin: 40px;
+}
+.button {
+    position: relative;
+    left: 150px;
+    top: 200px;
+    line-height: 35px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    color: white;
+    font-size: 20px;
+}
+.wp {
+    background-color: orangered;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(202, 99, 62);
+}
+
+.section {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    margin-left: 20px;
+    width: 100%;
+}
+.section h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container4 {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.container4 img {
+    border-radius: 10px;
+}
+.container4 span {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.div {
+    position: absolute;
+    top: 700px;
+}
+.div h2 {
+    position: relative;
+    left: 700px;
+    top: 500px;
+    border: 1px solid orangered;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+
+
